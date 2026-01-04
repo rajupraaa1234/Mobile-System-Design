@@ -1,5 +1,7 @@
 📱 Mobile System Design – Facebook News Feed (Android)
 
+<img width="468" height="360" alt="Screenshot 2026-01-05 at 1 26 12 AM" src="https://github.com/user-attachments/assets/85552741-fd56-40dd-b3b9-953b57ddede5" />
+
 🔹 Gathering Requirements
 
 Before jumping into design, we clarify the problem scope by identifying:

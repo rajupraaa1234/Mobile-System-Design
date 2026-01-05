@@ -169,7 +169,7 @@ API - High Level Contract
      Accessible pagination feedback
 
 
-  🔥 5️⃣ Error Handling & Retry Strategy
+  🔥 10️⃣ Error Handling & Retry Strategy
      
      Retry with exponential backoff
      Graceful UI states: Loading , Empty , Error

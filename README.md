@@ -138,7 +138,44 @@ API - High Level Contract
  <img width="651" height="344" alt="Screenshot 2026-01-05 at 1 24 21 AM" src="https://github.com/user-attachments/assets/626be450-8ab9-4053-9892-fdb721efc89f" />
 
 
+ 🔥 7️⃣ Caching Strategy (Must for Mobile)
+    
+    Client-Side Caching
+    
+    Cache feed data in local database (Room)
+    Images & videos served via CDN
+    Cache eviction: 
+    LRU or time-based expiry
+    Cached data shown immediately, then refreshed
 
+
+🔥 8️⃣ Offline Actions & Sync (Very Interview-Focused)
+   
+    Offline Interaction Handling 
+    
+    Likes/comments stored locally when offline
+    Marked as pending
+    Synced when network is restored
+    Server resolves conflicts using:
+    Last-write-wins
+    Idempotent APIs
+
+
+ 🔥 9️⃣ Accessibility 
+   
+     TalkBack support for feed items
+     Content descriptions for media
+     Proper focus order
+     Accessible pagination feedback
+
+
+  🔥 5️⃣ Error Handling & Retry Strategy
+     
+     Retry with exponential backoff
+     Graceful UI states: Loading , Empty , Error
+     Partial failure handling (e.g., feed loads but comments fail)
+
+     
 Client-Level Design (Android)
 
     Language: Kotlin

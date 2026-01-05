@@ -1,6 +1,6 @@
 📱 Mobile System Design – Facebook News Feed (Android)
 
-<img width="468" height="360" alt="Screenshot 2026-01-05 at 1 26 12 AM" src="https://github.com/user-attachments/assets/85552741-fd56-40dd-b3b9-953b57ddede5" />
+<img width="468" height="360" alt="ChatGPT Image Jan 5, 2026, 02_23_00 PM" src="https://github.com/user-attachments/assets/9d107cb6-0f69-4ea3-b573-27f31251078d" />
 
 🔹 Gathering Requirements
 
